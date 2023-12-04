@@ -255,59 +255,6 @@
 		{
 			"constructor":[
 				{
-					"parameterNames":[],
-					"parameterTypes":[]
-				}
-			],
-			"methods":[
-				{
-					"name":"getUser",
-					"parameterNames":[
-						"uid"
-					],
-					"parameterTypes":[
-						"int"
-					],
-					"returns":"com.grouter.demo.base.model.User"
-				},
-				{
-					"name":"getUser",
-					"parameterNames":[
-						"name"
-					],
-					"parameterTypes":[
-						"java.lang.String"
-					],
-					"returns":"com.grouter.demo.base.model.User"
-				},
-				{
-					"name":"listUser",
-					"parameterNames":[
-						"uids"
-					],
-					"parameterTypes":[
-						"int[]"
-					],
-					"returns":"java.util.List<com.grouter.demo.base.model.User>"
-				},
-				{
-					"name":"delete",
-					"parameterNames":[
-						"user",
-						"stringBuilder"
-					],
-					"parameterTypes":[
-						"com.grouter.demo.base.model.User",
-						"java.lang.StringBuilder"
-					],
-					"returns":"void"
-				}
-			],
-			"type":"com.grouter.demo.delegate.UserViewModel"
-		},
-		{
-			"constructor":[
-				{
 					"parameterNames":[
 						"context"
 					],
@@ -359,6 +306,59 @@
 				}
 			],
 			"type":"com.grouter.demo.delegate.MomentViewModel"
+		},
+		{
+			"constructor":[
+				{
+					"parameterNames":[],
+					"parameterTypes":[]
+				}
+			],
+			"methods":[
+				{
+					"name":"getUser",
+					"parameterNames":[
+						"uid"
+					],
+					"parameterTypes":[
+						"int"
+					],
+					"returns":"com.grouter.demo.base.model.User"
+				},
+				{
+					"name":"getUser",
+					"parameterNames":[
+						"name"
+					],
+					"parameterTypes":[
+						"java.lang.String"
+					],
+					"returns":"com.grouter.demo.base.model.User"
+				},
+				{
+					"name":"listUser",
+					"parameterNames":[
+						"uids"
+					],
+					"parameterTypes":[
+						"int[]"
+					],
+					"returns":"java.util.List<com.grouter.demo.base.model.User>"
+				},
+				{
+					"name":"delete",
+					"parameterNames":[
+						"user",
+						"stringBuilder"
+					],
+					"parameterTypes":[
+						"com.grouter.demo.base.model.User",
+						"java.lang.StringBuilder"
+					],
+					"returns":"void"
+				}
+			],
+			"type":"com.grouter.demo.delegate.UserViewModel"
 		}
 	],
 	"interceptorModels":[

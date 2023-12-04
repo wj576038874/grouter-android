@@ -10,6 +10,8 @@
       <module name="grouter-android.example.waimai" target="1.8" />
       <module name="grouter-android.example.webview" target="1.8" />
       <module name="grouter-android.grouter-gradle-plugin" target="1.8" />
+      <module name="grouter-android.grouter-gradle-plugin.main" target="1.8" />
+      <module name="grouter-android.grouter-gradle-plugin.test" target="1.8" />
       <module name="grouter-android.grouter-kotlinextensions" target="1.8" />
     </bytecodeTargetLevel>
   </component>
